@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
+import Container from '@material-ui/core/Container';
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
@@ -40,6 +41,7 @@ export default ({ children, meta, title }) => {
         }
       `}
       render={data => {
+        console.log("Data : ", data)
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
           subNav = {
@@ -73,11 +75,12 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
+            {/* <GithubCorner url="https://github.com/thriveweb/yellowcake" /> */}
 
             <Nav subNav={subNav} />
-
-            <Fragment>{children}</Fragment>
+                        
+              <Fragment>{children}</Fragment>            
+            
 
             <Footer />
           </Fragment>

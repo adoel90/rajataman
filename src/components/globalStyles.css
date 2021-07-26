@@ -8,6 +8,7 @@
   --font-primary: 'Open Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
+  --primaryLight: #f0fefe;
 }
 
 ::-webkit-scrollbar {
@@ -30,14 +31,14 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background: var(--primaryLight);
 }
 
 body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
+  background:  var(--primaryLight);
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;

@@ -35,38 +35,38 @@ export const ComponentsPageTemplate = ({
       </div>
     </section>
 
-    {/* <section className="section">
+    <section className="section">
       <div className="container">
         <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
-    </section> */}
+    </section>
 
-    {/* <section className="section">
+    <section className="section">
       <div className="container">
         <Content source={section2} />
       </div>
-    </section> */}
+    </section>
 
-    {/* <section className="BackgroundVideo-section section">
+    <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
-    </section> */}
+    </section>
 
-    {/* <section className="section">
+    <section className="section">
       <div className="container">
         <Accordion items={accordion} />
       </div>
-    </section> */}
+    </section>
 
-    {/* <section className="section">
+    <section className="section">
       <div className="container">
         <Popup>
           <Content source={section1} />
         </Popup>
       </div>
-    </section> */}
+    </section>
   </main>
 )
 
@@ -75,8 +75,8 @@ const ComponentsPage = ({ data: { page } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
-    
+    {/* <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} /> */}
+    <h1>Hai</h1>
   </Layout>
 )
 

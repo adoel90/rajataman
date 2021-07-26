@@ -1,16 +1,19 @@
 ---
 template: ComponentsPage
 slug: components
-title: Components Page
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
-subtitle: This is the components page subtitle.
+title: Rajanya Taman
+featuredImage: https://ucarecdn.com/6c979402-c07f-45ec-a7b4-12574037cf46/
+subtitle: Jasa Renovasi Taman Bogor
 section1: >-
-  ## This is a container component
+  ## Tentang Kami
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  Kami merupakan salah satu perusahaan yang bergerak dalam bidang pembuatan taman yang berlokasi di Kp Baru RT 004 RW 009 Desa Ragajaya Kec. Bojonggede Kab. Bogor. Berbagai layanan yang kami sediakan diantaranya menerima Jasa Pembuatan Taman, Kolam Minimalis, Kolam Relief, Saung Gazebo, Vertical Garden, Menjual Tanaman Hias, Dekorasi Tebing, Cat Wash, Lantai Carport, Kolam Koi.
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  Sebagai spesalis pembuatan taman Jabodetabek kami berkomitmen untuk memberikan pelayanan yang terbaik kepada setiap pelanggan kami, karena kepuasan setiap pelanggan adalah prioritas bagi kami yang dapat menjadikan Raja Taman Jabodetabek untuk terus melakukan inovasi akan kualitas yang kami berikan. Dengan tukang taman yang berpengalaman dalam bidang pembuatan taman, kami siap membantu Anda mulai dari perencanaan/desain, pelaksanaan dan pemeliharaan. Harga yang sangat terjangkau, serta layanan yang profesional, menjadikan hasil akhir pengerjaan kami sesuai dengan desain dan kesepakatan.
+
+
+  Percayakan semua pembuatan taman Anda pada kami Rajanya Taman Jabodetabek. Kami siap menghadirkan berbagai model taman sesuai konsep yang diinginkan dengan menyesuaikan luas lahan yang tersedia demi mendapatkan kesan hunian taman yang bernuansa unik, natural, indah, dan alami.
 section2: >-
   ## You can use videos, images and text.
 
@@ -39,6 +42,6 @@ gallery:
     image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: Yellow Ice Cream
 meta:
-  description: This is a meta description.
-  title: Components Page
+  description: Tentang Kami
+  title: Tentang Kami
 ---
